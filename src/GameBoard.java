@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import Tiles.*;
 import java.util.List;
 
 public class GameBoard {
