@@ -9,5 +9,44 @@ import javax.swing.*;
  */
 public class GameGUI extends JFrame {
 
+public JFrame frame = new JFrame();
+
+public JLabel scoreLabel = new JLabel();
+public JLabel infoLabel = new JLabel();
+public JLabel p1ScoreCounter = new JLabel();
+public JLabel p2ScoreCounter = new JLabel();
+
+JPanel gameGrid = new JPanel();
+
+JButton showRulesButton = new JButton();
+JButton p1ColorButtongroup = new JButton();
+JButton p2ColorButtongroup = new JButton();
+
+JRadioButton p1Color1 = new JRadioButton();
+JRadioButton p1Color2 = new JRadioButton();
+JRadioButton p1Color3 = new JRadioButton();
+JRadioButton p1Color4 = new JRadioButton();
+JRadioButton p2Color1 = new JRadioButton();
+JRadioButton p2Color2 = new JRadioButton();
+JRadioButton p2Color3 = new JRadioButton();
+JRadioButton p2Color4 = new JRadioButton();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
