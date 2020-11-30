@@ -7,32 +7,33 @@ import javax.swing.*;
  * Project: four-in-a-row
  * Copyright: MIT
  */
+
 public class GameGUI extends JFrame {
 
-public JFrame frame = new JFrame();
+JFrame frame = new JFrame();
+
+JPanel gameGrid = new JPanel();
 
 public JLabel scoreLabel = new JLabel();
 public JLabel infoLabel = new JLabel();
 public JLabel p1ScoreCounter = new JLabel();
 public JLabel p2ScoreCounter = new JLabel();
 
-JPanel gameGrid = new JPanel();
+public JButton showRulesButton = new JButton();
+public JButton p1ColorButtongroup = new JButton();
+public JButton p2ColorButtongroup = new JButton();
 
-JButton showRulesButton = new JButton();
-JButton p1ColorButtongroup = new JButton();
-JButton p2ColorButtongroup = new JButton();
-
-JRadioButton p1Color1 = new JRadioButton();
-JRadioButton p1Color2 = new JRadioButton();
-JRadioButton p1Color3 = new JRadioButton();
-JRadioButton p1Color4 = new JRadioButton();
-JRadioButton p2Color1 = new JRadioButton();
-JRadioButton p2Color2 = new JRadioButton();
-JRadioButton p2Color3 = new JRadioButton();
-JRadioButton p2Color4 = new JRadioButton();
+public JRadioButton p1Color1 = new JRadioButton();
+public JRadioButton p1Color2 = new JRadioButton();
+public JRadioButton p1Color3 = new JRadioButton();
+public JRadioButton p1Color4 = new JRadioButton();
+public JRadioButton p2Color1 = new JRadioButton();
+public JRadioButton p2Color2 = new JRadioButton();
+public JRadioButton p2Color3 = new JRadioButton();
+public JRadioButton p2Color4 = new JRadioButton();
 
 
-
+public GameGUI (){
 
 
 
@@ -40,13 +41,10 @@ JRadioButton p2Color4 = new JRadioButton();
 
 
 
+    }
 
+    public void refreshGameGrid (){
 
-
-
-
-
-
-
+    }
 
 }
